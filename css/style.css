@@ -1,0 +1,356 @@
+/***** Section navbar *****/
+.nav {
+    background-color: #1e202b !important;
+    padding: 40px 0;
+}
+
+/* @media (min-width: 1225px) {
+    .px-lg-5 {
+        padding-right: 5rem !important;
+        padding-left: 5rem !important;
+    }
+} */
+
+.navbar-toggler {
+    border: var(--bs-border-width) solid transparent;
+    box-shadow: 0 0 0 transparent !important;
+    border: 2px solid transparent;
+    transition: 0.3s ease;
+    border-radius: 30px;
+}
+
+.navbar-toggler:hover {
+    text-decoration: none;
+    border: 2px solid #009ad8;
+}
+
+.navbar .navbar-brand .logo {
+    width: 64px;
+    height: 38px;
+    margin-right: 10px;
+}
+
+.navbar .navbar-brand .logo-type {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.navbar .navbar-brand .logo-type .site-title {
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: white;
+}
+
+.navbar .navbar-brand .logo-type .site-description {
+    font-size: 10px;
+    display: block;
+    color: #bfc1c8;
+}
+
+.navbar .navbar-nav .nav-item {
+    margin-left: 15px;
+
+}
+
+.navbar .navbar-nav .nav-item a {
+    padding: 5px 25px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.navbar .navbar-nav .nav-item a:hover {
+    border: 2px solid #009ad8;
+    color: #009ad8 !important;
+}
+
+.navbar .navbar-nav .nav-item a.active {
+    border: 2px solid #009ad8;
+    color: #009ad8 !important;
+}
+
+/***** End Section navbar *****/
+
+/*  <!-- ======================================== -->
+    <!-- ======================================== -->
+    <!-- ======================================== -->
+    <!-- ======================================== -->
+*/
+
+/***** Section Home *****/
+.Home {
+    background-color: #1e202b;
+    padding: 0px 0 50px 0;
+}
+
+.Home .content .hero {
+    background-image: url(../img/banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 350px;
+    padding: 70px 0;
+}
+
+.Home .content .textInput {
+    width: 100%;
+    padding: 15px 50px 15px 20px;
+    background: #1e202b;
+    color: white;
+    border: 0;
+    border-radius: 30px;
+    position: relative;
+    outline: 0;
+}
+
+.Home .content .button {
+    border: none;
+    background: #009ad8;
+    padding: 10px 40px;
+    border-radius: 30px;
+    color: white;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+}
+
+/*  <!-- ======================================== -->
+    <!-- ======================================== -->
+    <!-- ======================================== -->
+    <!-- ======================================== -->
+*/
+
+
+/***** Section today *****/
+.Home .content .weatherTable {
+    margin-top: -150px;
+}
+
+.Home .content .weatherTable .today .top {
+    background-color: #2d303d;
+    color: rgb(191, 193, 200);
+    padding: 10px;
+    border-radius: 10px 0 0 0;
+}
+
+.Home .content .weatherTable .today .main {
+    background-color: #323544;
+    color: rgb(191, 193, 200);
+    border-radius: 0px 0px 0px 10px;
+    padding: 20px 0;
+}
+
+.Home .content .weatherTable .today .main .location {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.Home .content .weatherTable .today .main .num {
+    font-size: 90px;
+    margin-right: 30px;
+    font-weight: 700;
+    color: white;
+}
+
+.Home .content .weatherTable .today .main .forecast-icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 50px;
+}
+
+.Home .content .weatherTable .today .main .custom {
+    color: #009ad8;
+    margin: 20px 0;
+}
+
+/***** End Section today *****/
+
+/*  <!-- ======================================== -->
+    <!-- ======================================== -->
+    <!-- ======================================== -->
+    <!-- ======================================== -->
+*/
+
+/***** Section tomorrow *****/
+.Home .content .weatherTable .tomorrow .top {
+    background-color: #222530;
+    color: rgb(191, 193, 200);
+    padding: 10px;
+}
+
+.Home .content .weatherTable .tomorrow .main {
+    background-color: #262936;
+    color: rgb(191, 193, 200);
+    padding: 50px 20px;
+}
+
+.Home .content .weatherTable .tomorrow .main .degree {
+    font-size: 24px;
+    color: white;
+    font-weight: 700;
+}
+
+.Home .content .weatherTable .tomorrow .main .small {
+    font-size: 16px;
+}
+
+.Home .content .weatherTable .tomorrow .main .custom {
+    color: #009ad8;
+    margin: 20px 0;
+}
+
+/***** End Section tomorrow *****/
+
+/*  <!-- ======================================== -->
+    <!-- ======================================== -->
+    <!-- ======================================== -->
+    <!-- ======================================== -->
+*/
+
+/***** Section afterTomorrow *****/
+
+.Home .content .weatherTable .afterTomorrow .top {
+    background-color: #2d303d;
+    color: rgb(191, 193, 200);
+    padding: 10px;
+    border-radius: 0px 10px 0 0;
+
+}
+
+.Home .content .weatherTable .afterTomorrow .main {
+    background-color: #323544;
+    color: rgb(191, 193, 200);
+    padding: 50px 20px;
+    border-radius: 0 0 10px 0;
+}
+
+.Home .content .weatherTable .afterTomorrow .main .degree {
+    font-size: 24px;
+    color: white;
+    font-weight: 700;
+}
+
+.Home .content .weatherTable .afterTomorrow .main .small {
+    font-size: 16px;
+}
+
+.Home .content .weatherTable .afterTomorrow .main .custom {
+    color: #009ad8;
+    margin: 20px 0;
+}
+
+/***** End Section afterTomorrow *****/
+
+/*  <!-- ======================================== -->
+    <!-- ======================================== -->
+    <!-- ======================================== -->
+    <!-- ======================================== -->
+*/
+
+@media (max-width: 1200px) {
+    .degree {
+        display: inline-block !important;
+    }
+
+    .Home .content .weatherTable .today .main .forecast-icon {
+        margin-top: 0px;
+    }
+
+    .Home .content .weatherTable .afterTomorrow .main .degree,
+    .Home .content .weatherTable .tomorrow .main .degree {
+        display: block !important;
+    }
+
+    .Home .content .weatherTable .afterTomorrow.main,
+    .Home .content .weatherTable .tomorrow .main {
+        padding: 92px 20px;
+    }
+}
+
+@media (max-width: 990px) {
+    .degree {
+        display: flex !important;
+    }
+
+    .Home .content .weatherTable .today .main .degree {
+        justify-content: start !important;
+    }
+
+    .Home .content .weatherTable .today .top {
+        border-radius: 10px 10px 0 0;
+    }
+
+    .Home .content .weatherTable .today .main {
+        border-radius: 0px 0px 0px 0px;
+    }
+
+    .Home .content .weatherTable .today .main .forecast-icon {
+        margin-top: 40px;
+    }
+
+    .Home .content .weatherTable .afterTomorrow .main .degree,
+    .Home .content .weatherTable .tomorrow .main .degree {
+        display: block !important;
+    }
+
+    .Home .content .weatherTable .afterTomorrow.main,
+    .Home .content .weatherTable .tomorrow .main {
+        padding: 30px 20px 10px;
+    }
+
+    .Home .content .weatherTable .afterTomorrow .top {
+        border-radius: 0px 0px 0 0;
+    }
+
+    .Home .content .weatherTable .afterTomorrow .main {
+        border-radius: 0 0 10px 10px;
+    }
+}
+
+
+
+/***** End Section Home *****/
+.site-footer {
+    background: #262936;
+    padding: 50px 0;
+}
+.site-footer .social-links a {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+    background: #1e202b;
+    color: #009ad8;
+    text-align: center;
+    line-height: 2;
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+    font-size: 20px;
+}
+
+.site-footer .social-links a:hover {
+    background: #009ad8;
+    color: white;
+}
+
+.site-footer .inputErea .textInput {
+    width: 100%;
+    padding: 15px 50px 15px 20px;
+    background: #1e202b;
+    color: white;
+    border: 0;
+    border-radius: 30px;
+    position: relative;
+    outline: 0;
+}
+
+.site-footer .inputErea .button {
+    border: none;
+    background: #009ad8;
+    padding: 10px 40px;
+    border-radius: 30px;
+    color: white;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+}

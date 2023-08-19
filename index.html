@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="fonts/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Weather</title>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar-example">
+
+    <!-- ========== Start Section navbar ========== -->
+    <nav class="navbar navbar-expand-lg navbar-dark nav">
+        <div class="container px-lg-5 px-2">
+            <a class="navbar-brand" href="/">
+                <img src="img/logo@2x.png" alt="logo" class="logo">
+                <div class="logo-type ">
+                    <h1 class="site-title">Weather</h1>
+                    <small class="site-description">tagline goes here</small>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse mt-4 mt-md-0" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto  navbar-dark text-center ">
+                    <li class="nav-item mt-3 mt-md-0">
+                        <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item mt-3 mt-md-0">
+                        <a class="nav-link text-light" href="#">News</a>
+                    </li>
+                    <li class="nav-item mt-3 mt-md-0">
+                        <a class="nav-link text-light" href="#">Live camera</a>
+                    </li>
+                    <li class="nav-item mt-3 mt-md-0">
+                        <a class="nav-link text-light" href="#">Photos</a>
+                    </li>
+                    <li class="nav-item mt-3 mt-md-0">
+                        <a class="nav-link text-light" href="contact.html">Contact</a>
+                    </li>
+            </div>
+        </div>
+    </nav>
+    <!-- ========== End Section navbar ========== -->
+
+    <!-- ======================================== -->
+    <!-- ======================================== -->
+    <!-- ======================================== -->
+    <!-- ======================================== -->
+
+    <!-- ========== Start Section home ========== -->
+    <section class="Home position-relative" id="Home">
+        <div class="content">
+            <div class="hero ">
+                <div class="container px-lg-5">
+                    <div class="inputErea position-relative">
+                        <input type="text" class="textInput" id="inputErea" placeholder="Find your location...">
+                        <button type="button" class="button position-absolute">Find</button>
+                    </div>
+                </div>
+            </div>
+            <div class="weatherTable w-100">
+                <div class="container px-lg-5  ">
+                    <div class="row gx-0">
+                        <div class="col-lg-4">
+                            <div class="today">
+                                <div class="top d-flex justify-content-between">
+                                    <div class="day" id="todayName">Friday</div>
+                                    <div class="date" id="todayDate">17August</div>
+                                </div>
+                                <div class="main px-3">
+                                    <div class="location" id="todayLocation">london</div>
+                                    <div class="degree d-flex justify-content-between">
+                                        <div class="num" id="todayDegreeNum">32<sup>o</sup>C</div>
+                                        <div class="forecast-icon">
+                                            <img id="todayForecastIcon" src="img/113.png" alt="" width="90">
+                                        </div>
+                                    </div>
+                                    <div class="custom" id="todayCustom">Sunnnny</div>
+                                    <div class="downIcon d-flex">
+                                        <div>
+                                            <img src="img/icon-umberella.png" alt="" width="21" height="21" class="">
+                                            <span class="me-2" id="humidity"> 20%</span>
+                                        </div>
+                                        <div>
+                                            <img src="img/icon-wind.png" alt="" width="23" height="21">
+                                            <span class="me-2" id="windKph">18km/h</span>
+                                        </div>
+                                        <div>
+                                            <img src="img/icon-compass.png" alt="" width="21" height="21">
+                                            <span class="me-2" id="windDir">East</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="tomorrow text-center">
+                                <div class="top text-center">
+                                    <div class="day" id="tomorrowDay">Saturday</div>
+                                </div>
+                                <div class="main px-3">
+                                    <div class="forecast-icon mb-4">
+                                        <img src="img/113.png" id="tomorrowForecastIcon" alt="" width="48">
+                                    </div>
+                                    <div class="degree" id="tomorrowDegree">32.8<sup>o</sup>C</div>
+                                    <small class="small" id="tomorrowSmall">24.7<sup>o</sup></small>
+                                    <div class="custom" id="tomorrowCustom">Sunny</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="afterTomorrow tomorrow text-center">
+                                <div class="top tomorrow text-center">
+                                    <div class="day" id="tomorrowDay">Sunday</div>
+                                </div>
+                                <div class="main px-3">
+                                    <div class="forecast-icon mb-4" id="tomorrowForecastIcon">
+                                        <img src="img/113.png" alt="" width="48">
+                                    </div>
+                                    <div class="degree" id="tomorrowDegree">30.6<sup>o</sup>C</div>
+                                    <small class="small" id="tomorrowSmall">25.6<sup>o</sup></small>
+                                    <div class="custom" id="tomorrowCustom">Sunny</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- ========== End Section home ========== -->
+
+    <!-- ======================================== -->
+    <!-- ======================================== -->
+    <!-- ======================================== -->
+    <!-- ======================================== -->
+
+    <!-- ========== Start Section footer ========== -->
+    <footer class="site-footer">
+        <div class="container px-lg-5">
+            <div class="row">
+                <div class="col-lg-8 ">
+                    <div class="inputErea position-relative">
+                        <input type="text" class="textInput" placeholder="Enter your email to subscribe...">
+                        <button type="button" class="button position-absolute">Subscribe</button>
+                    </div>
+                </div>
+                <div class="col-lg-3  offset-md-1  mt-2 mt-lg-0">
+                    <div class="social-links">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-google-plus"></i></a>
+                        <a href="#"><i class="fa fa-pinterest"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <p class="colophon text-light mt-4 ms-3">Copyright 2014 Company name. Designed by Themezy. All rights
+                reserved</p>
+        </div>
+    </footer>
+    <!-- ========== End Section footer ========== -->
+
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
