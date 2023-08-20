@@ -48,7 +48,7 @@ var tomorrowCustom = document.querySelectorAll("#tomorrowCustom");
 function NextDayDisplay(data) {
     var forecastData = data.forecast.forecastday;
     for (var i = 0; i < 2; i++) {
-        var today_Date = new Date(forecastData[i].date);
+        var today_Date = new Date(forecastData[i+1].date);
         tomorrowDay[i].innerHTML = today_Date.toLocaleDateString("en-US", { weekday: "long" });
         tomorrowForecastIcon[i].setAttribute('src', forecastData[i + 1].day.condition.icon);
         tomorrowDegree[i].innerHTML = `${forecastData[i + 1].day.maxtemp_c}<sup>o</sup>C`;
